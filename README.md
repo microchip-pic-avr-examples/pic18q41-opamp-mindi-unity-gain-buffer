@@ -6,7 +6,7 @@ A unity gain buffer is an opamp configuration in which the output voltage tracks
 ![Voltage Follower](images/configuration.png)
 
 ### Mindi Simulation
-<img src="images/mplab-mindi-analog-simulator.png" width="100"/>
+![Mindi](images/mplab-mindi-analog-simulator.png)
 
 Download and open the follower **Mindi schematic [here](schematics/Voltage_Follower.wxsch)**
 

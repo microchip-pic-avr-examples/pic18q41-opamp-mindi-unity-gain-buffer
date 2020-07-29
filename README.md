@@ -1,4 +1,4 @@
-# Getting started with Mindi® simulation and AVR®DB microcontrollers
+# Getting started with Mindi® simulation and PIC18-Q41 microcontrollers
 This guide will get you up and running with simulating the analog OPAMP module in PIC18-Q41 family devices using the Mindi simulation tool.
 ## Configuration: Unity Gain Buffer (Voltage Follower)
 A unity gain buffer is an opamp configuration in which the output voltage tracks the input voltage, also known as a voltage follower.

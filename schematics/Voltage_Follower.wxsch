@@ -203,7 +203,7 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Netnames pin1="0"
 .EndInstance
 .Instance
-Attributes type=symbol name="OPAMP_PARAM_V8" selected=1 protected=0 x=2520 y=4920 orient=N0 
+Attributes type=symbol name="OPAMP_PARAM_V8" selected=0 protected=0 x=2520 y=4920 orient=N0 
 Property name="A0" value="22.3k" autopos=1 normal=Top rotated=Right visible=0 font=Default order=-1
 Property name="CMRR" value="3.53k" autopos=1 normal=Top rotated=Right visible=0 font=Default order=-1
 Property name="GBW" value="4.8Meg" autopos=1 normal=Top rotated=Right visible=0 font=Default order=-1
@@ -427,13 +427,13 @@ TextBlockInfo company="MICROCHIP TECHNOLOGY INC" title="Voltage Follower/ Unity 
 Property name="StyleNormal" value="DefaultTitleBlock" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultTitleBlockSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndTitleBlockAnnotation
-Text value=".simulator SIMETRIX\n.TRAN 400n 40m\n.options noraw\n.simulator DEFAULT\n"
+Text value=".simulator SIMETRIX\n.TRAN 400n 40m\n.options noraw\n.inc .\\Opamp_PIC18_Q41.lb\n.simulator DEFAULT"
 LicenseInfo version="8.20m" feats=Basic|AD|Micron|Mcore2|Schematic|Advanced|Sim|Demo|Rtn|SIMPLIS_IF|beta serial=unknown user="unknown" code=unknown product="MPLAB Mindi" binarch=x86 system="WINNT/10.0/x64/16515985408/4/1/8/625471873"
 SimulatorMode value="SIMetrix"
-View x=-775 y=1374 zoomlevel=31 zoom=8 snapgrid=120 offsetX=775 offsetY=-1333
+View x=-775 y=-1521 zoomlevel=31 zoom=8 snapgrid=120 offsetX=775 offsetY=-1333
 Property name="CreateProduct" value="MPLAB Mindi" type=value
 Property name="GUID" value="{7fb6c2a8-8029-43ee-b2d3-6a6ac607ce83}" type=value
-Property name="UserVersion" value="40" type=value
-Property name="WriteLog" value="40/40/33335/33335" type=value
+Property name="UserVersion" value="42" type=value
+Property name="WriteLog" value="42/42/33577/33577" type=value
 .EndSchematic
 .EndComponent

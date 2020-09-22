@@ -17,7 +17,7 @@ Download and open the follower **Mindi schematic [here](schematics/Voltage_Follo
 A voltage follower has no adjustable resistor values.
 
 ### Updating composer fields
-Once the desired result has been verified with Mindi simulation, the corrected values should be moved back into MCC/Start by copying resistor values across to the composer of your preference.
+Once the desired result has been verified with Mindi simulation, the corrected values should be moved back into MCC by copying resistor values across to the composer of your preference.
 
 ### Don't have Mindi?
 Download and install [Mindi simulation tool](https://www.microchip.com/mplab/mplab-mindi) here.

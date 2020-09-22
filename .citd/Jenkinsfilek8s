@@ -1,7 +1,7 @@
 pipeline {
     agent {
         kubernetes {
-            label 'pic18q41-opamp-mindi-uinty-gain-buffer'
+            label 'pic18q41-opamp-mindi-unity-gain-buffer'
 			defaultContainer ' mindi-debian'
             yamlFile '.citd/cloudprovider.yml'
         }
@@ -14,8 +14,8 @@ pipeline {
     }
 	
 	environment {	
-		SOURCE_URL = 'https://bitbucket.microchip.com/scm/mcu8mindi/pic18q41-opamp-mindi-uinty-gain-buffer.git'
-		GITHUB_URL = 'https://github.com/microchip-pic-avr-examples/pic18q41-opamp-mindi-uinty-gain-buffer'
+		SOURCE_URL = 'https://bitbucket.microchip.com/scm/mcu8mindi/pic18q41-opamp-mindi-unity-gain-buffer.git'
+		GITHUB_URL = 'https://github.com/microchip-pic-avr-examples/pic18q41-opamp-mindi-unity-gain-buffer'
 		DEPLOY_TOOL_URL = 'https://bitbucket.microchip.com/scm/citd/tool-github-deploy.git'
 		DEPLOY_BRANCHES = 'master'
 		EXCLUDE_FILES = '.citd,.gitignore,.gitattributes'

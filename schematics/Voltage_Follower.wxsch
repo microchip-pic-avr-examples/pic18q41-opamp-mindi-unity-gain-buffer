@@ -115,17 +115,17 @@ Property name="REF" value="V?" autopos=1 normal=Right rotated=Bottom font=Defaul
 .EndSymbol
 .EndSymbolLibrary
 .StyleLibrary
-Style name="DefaultBackground" lineColour="16777215" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultGrid" lineColour="0" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultInstance" lineColour="255" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="7" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=1
-Style name="DefaultOutline" lineColour="2004318071" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultSelected" lineColour="16711680" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="16711680" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultSelectionRect" lineColour="0" lineThickness="0" penstyle="dash" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultTitleBlock" lineColour="0" lineThickness="2" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultTitleBlockSelected" lineColour="16711680" lineThickness="2" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultWire" lineColour="39168" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultWireCreation" lineColour="0" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
-Style name="DefaultWireMoving" lineColour="10761149" lineThickness="0" penstyle="solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" propertyStyle=0
+Style name="DefaultBackground" lineColour="16777215" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
+Style name="DefaultGrid" lineColour="0" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="1" inheritGlobal="0" propertyStyle=0
+Style name="DefaultInstance" lineColour="255" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="7" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=1
+Style name="DefaultOutline" lineColour="2004318071" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
+Style name="DefaultSelected" lineColour="16711680" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="16711680" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
+Style name="DefaultSelectionRect" lineColour="0" lineThickness="0" lineThicknessReal="0" penstyle="Dash" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="1" inheritGlobal="0" propertyStyle=0
+Style name="DefaultTitleBlock" lineColour="0" lineThickness="2" lineThicknessReal="2" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
+Style name="DefaultTitleBlockSelected" lineColour="16711680" lineThickness="2" lineThicknessReal="2" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
+Style name="DefaultWire" lineColour="39168" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
+Style name="DefaultWireCreation" lineColour="0" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
+Style name="DefaultWireMoving" lineColour="10761149" lineThickness="0" lineThicknessReal="0" penstyle="Solid" fontFamily="arial" fontSize="9" fontItalics="0" fontBold="0" fontColour="0" fontOverline="0" fontUnderline="0" lineFixedThickness="0" inheritGlobal="0" propertyStyle=0
 .EndStyleLibrary
 .Instance
 Attributes type=symbol name="term" selected=0 protected=0 x=-480 y=4920 orient=N270 
@@ -170,15 +170,6 @@ Property name="netname" value="" autopos=1 normal=Left rotated=Left visible=0 fo
 Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 Netnames pin1="0"
-.EndInstance
-.Instance
-Attributes type=symbol name="opamp" selected=1 protected=0 x=2520 y=4920 orient=N0 
-Property name="MODEL" value="X" autopos=0 x=0 y=0 align=LeftTop visible=0 font=Default order=-1
-Property name="ref" value="OP1" autopos=0 x=510 y=17 align=CentreTop linear=1 font=Default order=-1
-Property name="StyleNormal" value="DefaultInstance" autopos=0 x=0 y=0 align=LeftTop visible=0 font=Default order=-1
-Property name="StyleSelected" value="DefaultSelected" autopos=0 x=0 y=0 align=LeftTop visible=0 font=Default order=-1
-Property name="value" value="Opamp_PIC18_Q41" autopos=0 x=120 y=505 align=CentreTop visible=0 linear=1 font=Default order=2
-Netnames pin1="Rsource_P" pin2="OP1_out" pin3="VDD" pin4="0" pin5="OP1_out"
 .EndInstance
 .Instance
 Attributes type=symbol name="probev_new" selected=0 protected=0 x=1920 y=5040 orient=M0 
@@ -239,6 +230,15 @@ Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rota
 Property name="value" value="3.3" autopos=1 normal=Right rotated=Top visible=0 font=Default order=1
 Property name="ref" value="Vsupply" autopos=1 normal=Right rotated=Bottom font=Default order=2
 Netnames pin1="VDD" pin2="0"
+.EndInstance
+.Instance
+Attributes type=symbol name="opamp" selected=0 protected=0 x=2520 y=4920 orient=N0 
+Property name="MODEL" value="X" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleNormal" value="DefaultInstance" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="StyleSelected" value="DefaultSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
+Property name="REF" value="X1" autopos=1 normal=Top rotated=Right font=Default order=1
+Property name="value" value="Opamp_PIC18_Q41" autopos=1 normal=Bottom rotated=Right font=Default order=2
+Netnames
 .EndInstance
 Wire x1=-480 y1=4920 x2=-480 y2=5160 net="VDD" branch="+:Vsupply#P"
 .Wire
@@ -375,12 +375,12 @@ Property name="StyleNormal" value="DefaultTitleBlock" autopos=1 normal=Left rota
 Property name="StyleSelected" value="DefaultTitleBlockSelected" autopos=1 normal=Left rotated=Left visible=0 font=Default order=-1
 .EndTitleBlockAnnotation
 Text value=".simulator SIMETRIX\n.TRAN 400n 40m\n.options noraw\n.inc .\\Opamp_PIC18_Q41.lb\n.simulator DEFAULT"
-LicenseInfo version="8.20m" feats=Basic|AD|Micron|Mcore2|Schematic|Advanced|Sim|Demo|Rtn|SIMPLIS_IF|beta serial=unknown user="unknown" code=unknown product="MPLAB Mindi" binarch=x86 system="WINNT/10.0/x64/16515985408/4/1/8/625471873"
+LicenseInfo version="8.40f" feats=Basic|Micron|Schematic|Advanced|Multistep|Sim|Plugindevices|Demo|Rtn|SIMPLIS_IF|beta serial=unknown user="unknown" code=unknown product="MPLAB Mindi" binarch=x64 system="WINNT/10.0/x64/16515985408/4/1/8/625471873"
 SimulatorMode value="SIMetrix"
-View x=1883 y=4781 zoomlevel=22 zoom=1 snapgrid=120 offsetX=643 offsetY=-4528
+View x=-1823 y=2782 zoomlevel=30 zoom=8 snapgrid=120 offsetX=1823 offsetY=-2805
 Property name="CreateProduct" value="MPLAB Mindi" type=value
 Property name="GUID" value="{7fb6c2a8-8029-43ee-b2d3-6a6ac607ce83}" type=value
-Property name="UserVersion" value="44" type=value
-Property name="WriteLog" value="44/44/34039/34039" type=value
+Property name="UserVersion" value="45" type=value
+Property name="WriteLog" value="45/45/34097/34097" type=value
 .EndSchematic
 .EndComponent
